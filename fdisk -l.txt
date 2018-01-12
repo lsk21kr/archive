@@ -1,0 +1,12 @@
+sudo fdisk -l
+Disk /dev/sda: 489.1 GiB, 525112713216 bytes, 1025610768 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 45A01E18-AFC9-46F8-8197-DE65F9F24C9F
+
+Device         Start        End   Sectors   Size Type
+/dev/sda1       2048    1050623   1048576   512M EFI System
+/dev/sda2    1050624  992301055 991250432 472.7G Linux filesystem
+/dev/sda3  992301056 1025609727  33308672  15.9G Linux swap
