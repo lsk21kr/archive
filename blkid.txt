@@ -1,0 +1,4 @@
+blkid
+/dev/sda3: UUID="6e79218a-3dd9-4655-b9ab-b983ab825731" TYPE="swap" PARTUUID="34a31791-ed5e-433f-866d-82fcdad92db4"
+/dev/sda1: UUID="A064-1DF7" TYPE="vfat" PARTLABEL="EFI System Partition" PARTUUID="73a91b0b-e681-48af-941a-fb4fd3b57936"
+/dev/sda2: UUID="8b584962-95a4-45e7-bf10-a8b68fca8e8b" TYPE="ext4" PARTUUID="e5684306-b003-4eb9-a4bb-9a91c948c5d2"
