@@ -59,9 +59,7 @@ set autowrite
 set autoread
 
 "ctags
-set tags=./tags
-set tags+=/usr/src/linux-3.0.4/tags
-set tags+=~/Git/xen-mcsched/tags
+set tags=./tags,~/Projects/Container/gem5/tags,~/Projects/Container/kernel/linux-4.8.13/tags
 
 "cscope
 set csprg=/usr/bin/cscope
