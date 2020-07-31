@@ -73,3 +73,18 @@ else
 endif
 set csverb
 
+" Keyword highlight (TODO, FIXME, NOTE, etc.)
+if has('autocmd') && v:version > 701
+    augroup Todo
+        autocmd!
+        autocmd Syntax * call matchadd(
+                    \ 'Debug',
+                    \ '\v\W\zs<(FIXME|BUG|HACK|XXX)>'
+                    \ )
+        autocmd Syntax * call matchadd(
+                    \ 'ToDo',
+                    \ '\v\W\zs(NOTE|INFO|IDEA|TODO|CHANGED|TRICKY|ATTN|DEBUG)>'
+                    \ )
+    augroup END
+endif
+
